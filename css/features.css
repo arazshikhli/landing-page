@@ -8,10 +8,22 @@
     min-height: 350px;
     padding: 135px 10% 65px 10%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
-@media (max-width:500px) {
+@media (max-width:700px) {
 
     .features{
         background-image: none;
     }
+}
+.features-big-title h3{
+    
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #ff6d6d;
 }
