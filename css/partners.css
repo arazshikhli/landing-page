@@ -86,3 +86,20 @@ text-align: center;
 .sponsor-1 a:hover::before{
     opacity: 1;
 }
+.card-1 h3, h2, p{
+    font-family: 'Exo';
+}
+.card-1 a{
+    text-decoration: none;
+    color: #fffff2;
+    transition: 0.7s;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 40px;
+}
+.card-1 a:hover{
+    color:#ff6d6d;
+    
+}
+

@@ -41,5 +41,11 @@
 }
 
 .link{
-    display: none;
+    display: inline;
+}
+.items-name {
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    color: #ff6d6d;
+    opacity: 0;
 }
