@@ -1,6 +1,6 @@
 .try-form{
     position: fixed;
-    display: flex;
+    display: none;
     flex-direction: column;
     background-color: #1f2442;
     z-index: 999;
@@ -10,7 +10,6 @@
     padding: 5%;
     background-color: #1f2442;
     text-align: center;
-
     align-items: center;
     color: #ff6d6d;
 

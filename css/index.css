@@ -5,8 +5,7 @@
     min-height:480px ;
     display: block;
     padding: 0;
-  
-  
+    
 }
 .video-container{
     overflow: hidden;
@@ -71,6 +70,7 @@
     transition: 0.7s;
     border: #ff6d6d;
     cursor: pointer;
+    z-index: 1000;
 }
 .stop{
     position: absolute;

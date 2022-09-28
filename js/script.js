@@ -49,3 +49,19 @@ ShowMenuItem(".link-4", ".items-name-4", ".nav-btn-4");
 HideMenuItem(".link-4", ".items-name-4", ".nav-btn-4");
 ShowMenuItem(".link-5", ".items-name-5", ".nav-btn-5");
 HideMenuItem(".link-5", ".items-name-5", ".nav-btn-5");
+
+const tryButton=document.querySelector('.btn-try');
+const closeTryForm=document.querySelector('.try-close-btn');
+function showTryForm(){
+     document.querySelector('.try-form').style.display="flex";
+    console.log("mishka najata");
+   
+}
+tryButton.addEventListener("click",showTryForm);
+function HiddeTryForm(){
+    document.querySelector('.try-form').style.display="none";
+    
+}
+closeTryForm.addEventListener("click", HiddeTryForm);
+
+

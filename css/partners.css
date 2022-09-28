@@ -51,39 +51,47 @@ text-align: center;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    width: 70%;
     flex-wrap: wrap;
+    margin: 0px 100px 0px 200px;
 }
 @media(max-width:400px){
 .sponsors{
     flex-direction: column;
 }
 }
-.sponsor-1 a{
+.brands a{
     cursor: pointer;
     line-height: 80px;
     
 }
-.sponsor-1 img{
+.brands img{
     margin-bottom: 30px;
 }
-.sponsor-1{
+.brands{
     display: block;
+   
 }
-.sponsor-1 a::before{
+.brands a{
+    cursor: pointer;
+}
+.brands a:nth-child(1)::before{
+left: 48.2%;
+}
+.brands a::before{
     display: block;
     content: "";
     position: absolute;
     opacity: 1;
+    width: auto;
     border: 8px solid transparent;
     border-bottom: 8px solid #ff6d6d;
     transition: 0.7s;
     
-    
-    
+   
 }
 
-.sponsor-1 a:hover::before{
+.sponsor a:hover::before{
     opacity: 1;
 }
 .card-1 h3, h2, p{
