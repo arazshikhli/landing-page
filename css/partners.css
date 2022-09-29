@@ -2,7 +2,7 @@
 .partners{
     display: flex;
     flex-direction: column;
-    background-image: url(/img/bg/bgclients.jpg);
+    background-image: url(../img/bg/bgclients.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

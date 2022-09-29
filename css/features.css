@@ -1,5 +1,7 @@
 .features{
-     background: url(../img/bg/bgfeatures-coffee.png) 95% 100% no-repeat, url(../img/bg/bgfeatures-earphones.png) 95% 0 no-repeat, url(../img/bg/bgfeatures-pens.png) 5% 0 no-repeat;
+     background: url(../img/bg/bgfeatures-coffee.png) 95% 100% no-repeat,
+     url(../img/bg/bgfeatures-earphones.png) 95% 0 no-repeat,
+     url(../img/bg/bgfeatures-pens.png) 5% 0 no-repeat;
     background-color: #f6f5f3; ;
     display: block;
 }
