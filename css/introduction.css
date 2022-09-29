@@ -1,0 +1,16 @@
+.introduction{
+    background-image: url(../img/bg/bgintro.jpg);
+    background-position: right;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 160px;
+    min-height: 300px;
+}
+.introduction h3{
+    color: black;
+}
