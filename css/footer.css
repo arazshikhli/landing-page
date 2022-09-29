@@ -1,11 +1,32 @@
 .footer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.footer-inner_1{
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+   min-height: 300px;
+}
+.footer-inner{
+    display: block;
+ width: 25%;
+ text-align: center;
+ font-family: 'Exo',sans-serif;
+ min-width: 300px;
+}
+.footer-inner p{
+    
+}
+.footer-inner h3{
+   
+}
+.footer-inner a{
+text-decoration: none;
+color: #282828;
+transition:0.7s;
+
+}
+.footer-inner a:hover{
+    color: #ff6d6d;
+   
 }

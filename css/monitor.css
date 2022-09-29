@@ -16,7 +16,13 @@
     justify-content: center;
     min-height: 350px;
 }
-
+@media (max-width:900px){
+    .monitor{
+        background: none;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+}
 @media (max-width:900px){
     .monitor-inner{
         flex-direction: column;

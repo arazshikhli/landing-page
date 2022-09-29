@@ -1,7 +1,7 @@
 .features{
      background: url(../img/bg/bgfeatures-coffee.png) 95% 100% no-repeat, url(../img/bg/bgfeatures-earphones.png) 95% 0 no-repeat, url(../img/bg/bgfeatures-pens.png) 5% 0 no-repeat;
     background-color: #f6f5f3; ;
-    
+    display: block;
 }
 
 @media (max-width:700px) {
@@ -21,15 +21,18 @@
     color: #ff6d6d;
 }
 .features-small-titles{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    padding-bottom: 100px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+    width: 100%;
+   min-height: 200px;
+ 
 }
 .small-title {
     max-width: 33.33%;
+    min-width: 300px;
 }
 .small-title a{
     text-decoration: none;
