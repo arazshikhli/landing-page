@@ -9,6 +9,7 @@ for(let anchor of anchors){
         )
     })
 }
+
 document.querySelector('.btn-video-play').onclick=()=>{
     document.querySelector('.wrapper-content-container').style.display='none';
     document.querySelector('.stop').style.display='inline-block';
