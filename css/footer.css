@@ -1,24 +1,29 @@
 .footer{
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-   min-height: 300px;
+    display: block;
+    padding: 135px 10% 65px 10%;
+    min-height: 300px;
+}
+@media(max-width:1350px){
+    .footer{
+        text-align: center;
+    }
 }
 .footer-inner{
-    display: block;
- width: 25%;
- text-align: center;
- font-family: 'Exo',sans-serif;
- min-width: 300px;
+    display: inline-block;
+    width: 300px;
+    font-family: 'Exo',sans-serif;
+    min-width: 300px;
+    text-align: center;
+   
 }
 .footer-inner p{
-    
+    color: #282828;
 }
 .footer-inner h3{
-   
+   color: black;
+   padding-bottom: 30px;
+ 
 }
 .footer-inner a{
 text-decoration: none;
@@ -29,4 +34,33 @@ transition:0.7s;
 .footer-inner a:hover{
     color: #ff6d6d;
    
+}
+.input-container{
+    vertical-align: top;
+    width: 270px;
+}
+.btn-mail{
+    width: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #ff6d6d;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.input-container input[type=email]{
+    width: 215px;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 2px solid #b8b8bf;
+    border-right: none;
+    font-family: Exo_r;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.input-container input{
+    display: inline-block;
+    vertical-align: top;
+    height: 50px;
 }
