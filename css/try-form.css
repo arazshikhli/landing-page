@@ -30,11 +30,19 @@
     text-transform: uppercase;
     margin:0px 20px 30px
 }
+.try-form input:focus{
+    border: 2px solid #ff6d6d;
+    outline:none;
+}
 .try-form input[type=submit]{
     background-color: #ff6d6d;
     color: #FFFFFF;
     border: none;
     cursor: pointer;
+    transition: all 0.7s;
+}
+.try-form input[type=submit]:hover{
+    box-shadow: 0px 0px 5px 3px rgb(255,109,109);
 }
 .try-close-btn{
     display:block;
@@ -49,4 +57,9 @@
     background-color: #ff6d6d;
     color: #FFFFFF;
     border: none;
+    transition: all 0.7s;
+}
+.try-close-btn:hover{
+    box-shadow: 0px 0px 5px 3px rgb(255,109,109);
+    
 }
