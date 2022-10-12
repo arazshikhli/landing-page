@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+.monitor{
+    
+    background-image: url('/img/bg/bgdescription.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+  
+}
+.monitor-inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 350px;
+}
+@media (max-width:900px){
+    .monitor{
+        background: none;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+}
+@media (max-width:900px){
+    .monitor-inner{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-section img{
+        max-width: 300px;
+    }
+}
+.title-section p{
+    color: black;
+}
+.title-section{
+text-align: center;
+max-width: 520px;
+font-family: 'Exo', sans-serif;
+}
+.title-section p{
+    margin: 10px;
+    line-height: 25px;
+}
+.title-section h3{
+    font-size: 16px;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #ff6d6d;
+    
+}
+.title-section h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: normal;
+    margin: 10px 20px 10px 20px;
+}
