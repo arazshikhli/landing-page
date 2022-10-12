@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+.container{
+    min-width: 300px;
+}
+.wrapper h3{
+
+}
+.wrapper h2{
+    margin-bottom: 80px;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: normal;
+}
+.wrapper{
+    position: relative;
+    min-height: 350px;
+    padding: 135px 10% 65px 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+@import 'browser';
+@import 'features';
+@import 'footer';
+@import 'header';
+@import 'introduction';
+@import 'main';
+@import 'monitor';
+@import 'partners';
+@import 'registration';
+@import 'reset';
+@import 'try-form';

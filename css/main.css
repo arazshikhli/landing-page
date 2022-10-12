@@ -1,99 +1,117 @@
-.main{
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height:480px ;
-    display: block;
-    padding: 0;
-    
+.main {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 480px;
+  display: block;
+  padding: 0;
 }
-.video-container{
-    overflow: hidden;
-    
-  
-}
-.video-container video{
-    object-fit: fill;
-   height: 100vh;
-   width: 100%;
-}
-@media(max-width:700px){
-    
-    .video-container video{
-        object-fit: cover;
-    }
-}
-.wrapper-content-container{
-    position: absolute;
-    z-index: 5;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100vh;
 
-   
+.video-container {
+  overflow: hidden;
 }
-.wrapper-content{
-   
-    z-index: 8;
+
+.video-container video {
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 100vh;
+  width: 100%;
 }
-.wrapper-content h1{
-    font-family: 'Exo';
-    font-size: 20px;
-    margin-bottom: 50px;
-    font-size: 60px;
-    line-height: 75px;
-    font-weight:200;
-    color: azure;
+
+@media (max-width: 700px) {
+  .video-container video {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
-.btn-video-play{
-    border-radius: 50%;
-    border: none;
-    background:none;
-    cursor: pointer;
-    padding-bottom: 50px;
+.wrapper-content-container {
+  position: absolute;
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
 }
-.btn-try{
-    margin-bottom: 20px;
-    display: inline-block;
-    width: 190px;
-    box-sizing: border-box;
-    padding: 15px 0;
-    border-radius: 5px;
-    background-color: #ff6d6d;
-    font-family: 'Exo';
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-    transition: 0.7s;
-    border: #ff6d6d;
-    cursor: pointer;
-    z-index: 1000;
+
+.wrapper-content {
+  z-index: 8;
 }
-.stop{
-    position: absolute;
-    z-index: 10;
-    top: 10px;
-    left: 95%;
-    display: none;
+
+.wrapper-content h1 {
+  font-family: "Exo";
+  font-size: 20px;
+  margin-bottom: 50px;
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: 200;
+  color: azure;
 }
-.x-btn{
-    width: 30px;
-    height: 30px;
-   
+
+.btn-video-play {
+  border-radius: 50%;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding-bottom: 50px;
 }
-.btn-stop{
-    border-radius: 50%;
-    border: none;
+
+.btn-try {
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 190px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px 0;
+  border-radius: 5px;
+  background-color: #ff6d6d;
+  font-family: "Exo";
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  border: #ff6d6d;
+  cursor: pointer;
+  z-index: 1000;
 }
-.btn-try:hover{
-    box-shadow: 0px 0px 5px 3px rgb(255,109,109);
+
+.stop {
+  position: absolute;
+  z-index: 10;
+  top: 10px;
+  left: 95%;
+  display: none;
 }
-.wrapper-content p{
-    font-family: 'Exo', sans-serif;
-    font-size: 14px;
+
+.x-btn {
+  width: 30px;
+  height: 30px;
+}
+
+.btn-stop {
+  border-radius: 50%;
+  border: none;
+}
+
+.btn-try:hover {
+  -webkit-box-shadow: 0px 0px 5px 3px rgb(255, 109, 109);
+          box-shadow: 0px 0px 5px 3px rgb(255, 109, 109);
+}
+
+.wrapper-content p {
+  font-family: "Exo", sans-serif;
+  font-size: 14px;
 }

@@ -1,65 +1,79 @@
-.try-form{
-    position: fixed;
-    display: none;
-    flex-direction: column;
-    background-color: #1f2442;
-    z-index: 999;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    padding: 5%;
-    background-color: #1f2442;
-    text-align: center;
-    align-items: center;
-    color: #ff6d6d;
+.try-form {
+  position: fixed;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #1f2442;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 5%;
+  background-color: #1f2442;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ff6d6d;
+}
 
+.try-form input {
+  display: inline-block;
+  height: 50px;
+  width: 215px;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Exo";
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0px 20px 30px;
 }
-.try-form input{
-    display: inline-block;
-    height: 50px;
-    width: 215px;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -o-box-sizing: border-box;
-    box-sizing: border-box;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-family: 'Exo';
-    font-size: 16px;
-    text-transform: uppercase;
-    margin:0px 20px 30px
+
+.try-form input:focus {
+  border: 2px solid #ff6d6d;
+  outline: none;
 }
-.try-form input:focus{
-    border: 2px solid #ff6d6d;
-    outline:none;
+
+.try-form input[type=submit] {
+  background-color: #ff6d6d;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
 }
-.try-form input[type=submit]{
-    background-color: #ff6d6d;
-    color: #FFFFFF;
-    border: none;
-    cursor: pointer;
-    transition: all 0.7s;
+
+.try-form input[type=submit]:hover {
+  -webkit-box-shadow: 0px 0px 5px 3px rgb(255, 109, 109);
+          box-shadow: 0px 0px 5px 3px rgb(255, 109, 109);
 }
-.try-form input[type=submit]:hover{
-    box-shadow: 0px 0px 5px 3px rgb(255,109,109);
+
+.try-close-btn {
+  display: block;
+  height: 50px;
+  width: 215px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-family: "Exo";
+  text-transform: uppercase;
+  background-color: #ff6d6d;
+  color: #FFFFFF;
+  border: none;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
 }
-.try-close-btn{
-    display:block;
-    height: 50px;
-    width: 215px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-size: 16px;
-    font-family: 'Exo';
-    text-transform: uppercase;
-    background-color: #ff6d6d;
-    color: #FFFFFF;
-    border: none;
-    transition: all 0.7s;
-}
-.try-close-btn:hover{
-    box-shadow: 0px 0px 5px 3px rgb(255,109,109);
-    
+
+.try-close-btn:hover {
+  -webkit-box-shadow: 0px 0px 5px 3px rgb(255, 109, 109);
+          box-shadow: 0px 0px 5px 3px rgb(255, 109, 109);
 }

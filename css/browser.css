@@ -1,31 +1,36 @@
-.browser{
-    position: relative;
-    min-height: 350px;
-    padding: 135px 10% 65px 10%;
-   text-align: center;
+.browser {
+  position: relative;
+  min-height: 350px;
+  padding: 135px 10% 65px 10%;
+  text-align: center;
 }
-.browser h3{
-    color: #ff6d6d;
-    font-family: 'Exo', sans-serif;
-    margin-bottom: 15px;
-   font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 1.2em;
-    margin-top: 5%;
+
+.browser h3 {
+  color: #ff6d6d;
+  font-family: "Exo", sans-serif;
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  margin-top: 5%;
 }
-.browser-image{
-    padding-top: 50px;
+
+.browser-image {
+  padding-top: 50px;
 }
-.browser-image img{
-    width: 100%;
-    max-width: 800px;
-    margin-bottom: -4px;
+
+.browser-image img {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: -4px;
 }
-.browser p{
-    color: #282828;
+
+.browser p {
+  color: #282828;
 }
-.browser-content{
-    max-width: 580px;
-    margin: 0 auto;
+
+.browser-content {
+  max-width: 580px;
+  margin: 0 auto;
 }

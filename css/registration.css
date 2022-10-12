@@ -1,67 +1,79 @@
-.registration{
-    min-height: 250px;
-    padding: 100px 5%;
-    background-color: #323969;
-    font-family: 'Exo';
-    text-align: center;
+.registration {
+  min-height: 250px;
+  padding: 100px 5%;
+  background-color: #323969;
+  font-family: "Exo";
+  text-align: center;
 }
-.registration h3{
-    font-size: 16px;
-    line-height: 50px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
-    color: #ff6d6d;
+
+.registration h3 {
+  font-size: 16px;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #ff6d6d;
 }
-.registration h2{
-    margin-bottom: 90px;
-    color: #FFFFFF;
-    font-size: 40px;
-    line-height: 50px;
-    font-weight: normal;
+
+.registration h2 {
+  margin-bottom: 90px;
+  color: #FFFFFF;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: normal;
 }
-.reg-input{
-    margin: 0 10px 20px 10px;
-    width: 270px;
-    height: 50px;
-    padding: 10px 30px;
-    box-sizing: border-box;
-    background-color: #474d78;
-    border: 2px solid #999cb4;
-    border-radius: 5px;
-    color: #FFFFFF;
-    font-family: 'Exo';
-    font-size: 16px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    transition: all 0.2s;
+
+.reg-input {
+  margin: 0 10px 20px 10px;
+  width: 270px;
+  height: 50px;
+  padding: 10px 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #474d78;
+  border: 2px solid #999cb4;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-family: "Exo";
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
-.reg-input:focus{
-    border: 2px solid #ff6d6d;
-    outline:none;
+
+.reg-input:focus {
+  border: 2px solid #ff6d6d;
+  outline: none;
 }
-.reg-submit{
-    background-color: #ff6d6d;
-    border: 2px solid #ff6d6d;
-    border-radius: 5px;
-    font-family: 'Exo',sans-serif;
-    text-transform: uppercase;
-    width: 270px;
-    height: 50px;
-    font-weight: 500;
-    letter-spacing: 3px;
-    font-size: 17px;
-    color: #FFFFFF;
-    transition: all 0.7s;
+
+.reg-submit {
+  background-color: #ff6d6d;
+  border: 2px solid #ff6d6d;
+  border-radius: 5px;
+  font-family: "Exo", sans-serif;
+  text-transform: uppercase;
+  width: 270px;
+  height: 50px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 17px;
+  color: #FFFFFF;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
 }
-.reg-submit:hover{
-    box-shadow: 0px 0px 5px 3px rgb(255,109,109);
+
+.reg-submit:hover {
+  -webkit-box-shadow: 0px 0px 5px 3px rgb(255, 109, 109);
+          box-shadow: 0px 0px 5px 3px rgb(255, 109, 109);
 }
-.form-container a{
-    color: #FFFFFF;
-    transition:all  0.7s;
+
+.form-container a {
+  color: #FFFFFF;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
 }
-.form-container a:hover{
-    color: #ff6d6d;
-    
+
+.form-container a:hover {
+  color: #ff6d6d;
 }
